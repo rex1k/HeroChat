@@ -277,3 +277,7 @@ class ClientMainWindow(QMainWindow):
     def make_connection(self, trans_obj):
         trans_obj.new_message.connect(self.message)
         trans_obj.connection_lost.connect(self.connection_lost)
+
+
+
+"""Some commentary for test 27.07.2020  """
